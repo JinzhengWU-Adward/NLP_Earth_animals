@@ -31,6 +31,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
+（可选）启用更强语义检索（会安装较大的 torch 依赖）：
+
+```bash
+pip install -r requirements-ml.txt
+```
+
 访问：
 
 - `GET http://localhost:8000/health`

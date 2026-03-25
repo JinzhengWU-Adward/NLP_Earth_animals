@@ -1,13 +1,17 @@
 from __future__ import annotations
 
+from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
-from fastapi import APIRouter
+
+from app.services.nlp_service import NlpService
+from app.services.wiring import get_nlp_service
 
 router = APIRouter()
 
 
 class QueryRequest(BaseModel):
     query: str = Field(..., min_length=1)
+    top_k: int = Field(default=5, ge=1, le=20)
 
 
 class QueryResponse(BaseModel):
@@ -17,11 +21,20 @@ class QueryResponse(BaseModel):
 
 
 @router.post("/query", response_model=QueryResponse)
-def query(req: QueryRequest) -> QueryResponse:
-    # MVP 占位：后续会接入向量检索（RAG）与知识图谱查询，并由 router/agent 决策。
-    return QueryResponse(
-        answer=f"收到你的问题：{req.query}（当前为MVP占位回答）",
-        route="stub",
-        citations=[],
-    )
+def query(req: QueryRequest, nlp: NlpService = Depends(get_nlp_service)) -> QueryResponse:
+    result = nlp.qa.answer(query=req.query, top_k=req.top_k)
+    citations = [
+        {
+            "id": h.species.id,
+            "species_name": h.species.species_name,
+            "region": h.species.region,
+            "habitat": h.species.habitat,
+            "diet": h.species.diet,
+            "latitude": h.species.latitude,
+            "longitude": h.species.longitude,
+            "score": h.score,
+        }
+        for h in result.hits
+    ]
+    return QueryResponse(answer=result.answer, route=result.route, citations=citations)
 
