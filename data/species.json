@@ -598,6 +598,906 @@
     "habitat": "Steppe",
     "diet": "Herbivore",
     "description": "A migratory antelope of the Eurasian steppe with a distinctive nose that filters dust and warms cold air."
+  },
+  {
+    "id": "sp_0061",
+    "species_name": "African Lionfish",
+    "region": "Red Sea",
+    "latitude": 20.7,
+    "longitude": 38.9,
+    "habitat": "Coral reef",
+    "diet": "Carnivore",
+    "description": "A venomous reef fish that ambushes small fish and crustaceans among coral crevices and rocky outcrops."
+  },
+  {
+    "id": "sp_0062",
+    "species_name": "Hippocampus (Seahorse)",
+    "region": "Indo-Pacific",
+    "latitude": -8.6,
+    "longitude": 115.2,
+    "habitat": "Seagrass beds",
+    "diet": "Carnivore",
+    "description": "A small bony fish that clings to seagrass with a prehensile tail and feeds on tiny crustaceans by suction."
+  },
+  {
+    "id": "sp_0063",
+    "species_name": "Manta Ray",
+    "region": "Indo-Pacific",
+    "latitude": -4.2,
+    "longitude": 55.5,
+    "habitat": "Coastal ocean",
+    "diet": "Carnivore",
+    "description": "A large ray that glides through plankton-rich waters, filtering zooplankton and gathering at cleaning stations."
+  },
+  {
+    "id": "sp_0064",
+    "species_name": "Whale Shark",
+    "region": "Western Indian Ocean",
+    "latitude": -23.1,
+    "longitude": 35.4,
+    "habitat": "Open ocean",
+    "diet": "Carnivore",
+    "description": "The largest fish, a gentle filter-feeder that follows plankton blooms and fish spawning events in warm seas."
+  },
+  {
+    "id": "sp_0065",
+    "species_name": "Narwhal",
+    "region": "Arctic",
+    "latitude": 74.0,
+    "longitude": -70.0,
+    "habitat": "Arctic fjords and pack ice",
+    "diet": "Carnivore",
+    "description": "An Arctic toothed whale known for its long tusk, feeding on fish and squid beneath sea ice."
+  },
+  {
+    "id": "sp_0066",
+    "species_name": "Beluga Whale",
+    "region": "Arctic",
+    "latitude": 69.0,
+    "longitude": -135.0,
+    "habitat": "Coastal Arctic waters",
+    "diet": "Carnivore",
+    "description": "A white whale that migrates along ice edges and estuaries, using rich vocalizations and echolocation to hunt."
+  },
+  {
+    "id": "sp_0067",
+    "species_name": "Orca (Killer Whale)",
+    "region": "North Pacific",
+    "latitude": 49.6,
+    "longitude": -126.6,
+    "habitat": "Coastal ocean",
+    "diet": "Carnivore",
+    "description": "A highly social apex predator with distinct ecotypes, hunting fish or marine mammals using coordinated tactics."
+  },
+  {
+    "id": "sp_0068",
+    "species_name": "Sperm Whale",
+    "region": "North Atlantic",
+    "latitude": 25.0,
+    "longitude": -71.0,
+    "habitat": "Deep ocean",
+    "diet": "Carnivore",
+    "description": "A deep-diving whale that hunts squid in the dark mesopelagic zone, using powerful echolocation clicks."
+  },
+  {
+    "id": "sp_0069",
+    "species_name": "Great Green Macaw",
+    "region": "Central America",
+    "latitude": 10.5,
+    "longitude": -84.0,
+    "habitat": "Tropical rainforest",
+    "diet": "Herbivore",
+    "description": "A large parrot of lowland forests that feeds on nuts and fruits and depends on mature trees for nesting cavities."
+  },
+  {
+    "id": "sp_0070",
+    "species_name": "Resplendent Quetzal",
+    "region": "Central America",
+    "latitude": 15.3,
+    "longitude": -90.2,
+    "habitat": "Cloud forest",
+    "diet": "Herbivore",
+    "description": "A colorful bird of montane forests that eats fruit—especially wild avocados—and nests in decaying tree trunks."
+  },
+  {
+    "id": "sp_0071",
+    "species_name": "Toucan",
+    "region": "Amazon Basin",
+    "latitude": -1.2,
+    "longitude": -52.0,
+    "habitat": "Tropical rainforest canopy",
+    "diet": "Omnivore",
+    "description": "A canopy bird with a large bill, dispersing seeds by eating fruit and also taking insects and small prey."
+  },
+  {
+    "id": "sp_0072",
+    "species_name": "Scarlet Ibis",
+    "region": "Northern South America",
+    "latitude": 10.6,
+    "longitude": -61.2,
+    "habitat": "Mangroves and lagoons",
+    "diet": "Carnivore",
+    "description": "A bright red wading bird feeding on crustaceans in coastal wetlands, nesting in large colonies in mangroves."
+  },
+  {
+    "id": "sp_0073",
+    "species_name": "Andean Condor",
+    "region": "Andes",
+    "latitude": -15.8,
+    "longitude": -71.0,
+    "habitat": "High mountains",
+    "diet": "Carnivore",
+    "description": "A massive soaring scavenger of the Andes that uses updrafts to travel long distances while searching for carrion."
+  },
+  {
+    "id": "sp_0074",
+    "species_name": "Peregrine Falcon",
+    "region": "Global",
+    "latitude": 51.5,
+    "longitude": -0.1,
+    "habitat": "Cliffs and urban areas",
+    "diet": "Carnivore",
+    "description": "A fast aerial predator that hunts birds mid-flight, now common in some cities where tall buildings mimic cliffs."
+  },
+  {
+    "id": "sp_0075",
+    "species_name": "Golden Eagle",
+    "region": "North America",
+    "latitude": 39.2,
+    "longitude": -106.8,
+    "habitat": "Mountain and steppe",
+    "diet": "Carnivore",
+    "description": "A powerful raptor of open country that hunts rabbits and ground squirrels and nests on cliffs or large trees."
+  },
+  {
+    "id": "sp_0076",
+    "species_name": "Great Horned Owl",
+    "region": "North America",
+    "latitude": 41.9,
+    "longitude": -93.6,
+    "habitat": "Woodland and farmland",
+    "diet": "Carnivore",
+    "description": "A nocturnal owl with prominent ear tufts, taking diverse prey from rodents to birds across mixed landscapes."
+  },
+  {
+    "id": "sp_0077",
+    "species_name": "Barn Owl",
+    "region": "Global",
+    "latitude": 37.0,
+    "longitude": -120.0,
+    "habitat": "Grassland and agricultural areas",
+    "diet": "Carnivore",
+    "description": "A pale owl that hunts rodents by sound in open fields, often nesting in barns, cavities, or cliff crevices."
+  },
+  {
+    "id": "sp_0078",
+    "species_name": "Red-crowned Crane",
+    "region": "East Asia",
+    "latitude": 43.3,
+    "longitude": 145.6,
+    "habitat": "Wetlands",
+    "diet": "Omnivore",
+    "description": "A large crane associated with marshes and river plains, feeding on aquatic invertebrates, fish, and plants."
+  },
+  {
+    "id": "sp_0079",
+    "species_name": "Japanese Macaque",
+    "region": "Japan",
+    "latitude": 36.7,
+    "longitude": 138.4,
+    "habitat": "Temperate forest",
+    "diet": "Omnivore",
+    "description": "A cold-adapted primate living in troops, foraging on fruits, seeds, insects, and seasonal plant foods."
+  },
+  {
+    "id": "sp_0080",
+    "species_name": "Golden Snub-nosed Monkey",
+    "region": "Central China",
+    "latitude": 33.2,
+    "longitude": 107.9,
+    "habitat": "Mountain forest",
+    "diet": "Herbivore",
+    "description": "A high-elevation monkey that relies on intact forests, feeding heavily on lichens, buds, and young leaves."
+  },
+  {
+    "id": "sp_0081",
+    "species_name": "Gelada",
+    "region": "Ethiopian Highlands",
+    "latitude": 12.1,
+    "longitude": 38.2,
+    "habitat": "High-altitude grassland",
+    "diet": "Herbivore",
+    "description": "A grass-eating primate of Ethiopian plateaus, living in large social groups and grazing like ungulates."
+  },
+  {
+    "id": "sp_0082",
+    "species_name": "Meerkat",
+    "region": "Southern Africa",
+    "latitude": -24.7,
+    "longitude": 21.8,
+    "habitat": "Semi-desert",
+    "diet": "Omnivore",
+    "description": "A social mongoose of arid regions that cooperatively guards burrows and forages for insects and small vertebrates."
+  },
+  {
+    "id": "sp_0083",
+    "species_name": "Spotted Hyena",
+    "region": "East Africa",
+    "latitude": -2.7,
+    "longitude": 34.9,
+    "habitat": "Savanna",
+    "diet": "Carnivore",
+    "description": "A resilient carnivore that hunts and scavenges, playing a major role in nutrient cycling across savanna ecosystems."
+  },
+  {
+    "id": "sp_0084",
+    "species_name": "African Wild Dog",
+    "region": "Southern Africa",
+    "latitude": -19.0,
+    "longitude": 23.4,
+    "habitat": "Savanna and woodland",
+    "diet": "Carnivore",
+    "description": "A cooperative pack hunter with high hunting success, vulnerable to habitat fragmentation and disease spillover."
+  },
+  {
+    "id": "sp_0085",
+    "species_name": "Black Rhinoceros",
+    "region": "East Africa",
+    "latitude": -0.5,
+    "longitude": 37.1,
+    "habitat": "Savanna woodland",
+    "diet": "Herbivore",
+    "description": "A browsing rhinoceros that feeds on shrubs and small trees, threatened historically by poaching for its horn."
+  },
+  {
+    "id": "sp_0086",
+    "species_name": "White Rhinoceros",
+    "region": "Southern Africa",
+    "latitude": -24.0,
+    "longitude": 31.6,
+    "habitat": "Savanna",
+    "diet": "Herbivore",
+    "description": "A large grazing rhinoceros of open grasslands, forming loose groups and relying on protected areas for survival."
+  },
+  {
+    "id": "sp_0087",
+    "species_name": "Zebra",
+    "region": "East Africa",
+    "latitude": -2.3,
+    "longitude": 34.9,
+    "habitat": "Savanna",
+    "diet": "Herbivore",
+    "description": "A social grazer that migrates with seasonal rains, feeding on grasses and helping maintain open savanna structure."
+  },
+  {
+    "id": "sp_0088",
+    "species_name": "Wildebeest",
+    "region": "East Africa",
+    "latitude": -2.0,
+    "longitude": 35.0,
+    "habitat": "Savanna grassland",
+    "diet": "Herbivore",
+    "description": "A migratory antelope that moves in vast herds, tracking rainfall and driving grazing dynamics across plains."
+  },
+  {
+    "id": "sp_0089",
+    "species_name": "Cape Buffalo",
+    "region": "East Africa",
+    "latitude": -1.8,
+    "longitude": 35.1,
+    "habitat": "Savanna and wetlands",
+    "diet": "Herbivore",
+    "description": "A robust bovine living in herds, grazing grasses and using water sources that shape movement across landscapes."
+  },
+  {
+    "id": "sp_0090",
+    "species_name": "Eland",
+    "region": "Southern Africa",
+    "latitude": -22.0,
+    "longitude": 24.0,
+    "habitat": "Savanna and semi-arid plains",
+    "diet": "Herbivore",
+    "description": "A large antelope that browses and grazes, capable of long-distance movements in dry environments."
+  },
+  {
+    "id": "sp_0091",
+    "species_name": "Red Kangaroo",
+    "region": "Australia",
+    "latitude": -23.7,
+    "longitude": 133.9,
+    "habitat": "Arid shrubland",
+    "diet": "Herbivore",
+    "description": "A desert-adapted marsupial that travels across open country, feeding on grasses and conserving water in hot climates."
+  },
+  {
+    "id": "sp_0092",
+    "species_name": "Tasmanian Devil",
+    "region": "Tasmania",
+    "latitude": -42.0,
+    "longitude": 146.7,
+    "habitat": "Temperate forest",
+    "diet": "Carnivore",
+    "description": "A nocturnal scavenging marsupial that also hunts small prey, impacted by a contagious facial tumor disease."
+  },
+  {
+    "id": "sp_0093",
+    "species_name": "Wombat",
+    "region": "Australia",
+    "latitude": -37.0,
+    "longitude": 144.0,
+    "habitat": "Woodland",
+    "diet": "Herbivore",
+    "description": "A burrowing marsupial with a slow metabolism, feeding on grasses and roots and shaping soils through digging."
+  },
+  {
+    "id": "sp_0094",
+    "species_name": "Kiwi",
+    "region": "New Zealand",
+    "latitude": -38.4,
+    "longitude": 175.3,
+    "habitat": "Temperate forest",
+    "diet": "Omnivore",
+    "description": "A flightless nocturnal bird that probes soil for invertebrates, vulnerable to introduced predators."
+  },
+  {
+    "id": "sp_0095",
+    "species_name": "Kakapo",
+    "region": "New Zealand",
+    "latitude": -46.9,
+    "longitude": 168.1,
+    "habitat": "Island forest",
+    "diet": "Herbivore",
+    "description": "A critically endangered flightless parrot that breeds irregularly in mast years and relies on intensive conservation."
+  },
+  {
+    "id": "sp_0096",
+    "species_name": "Galápagos Giant Tortoise",
+    "region": "Galápagos",
+    "latitude": -0.7,
+    "longitude": -90.4,
+    "habitat": "Volcanic highlands",
+    "diet": "Herbivore",
+    "description": "A long-lived tortoise that grazes grasses and shrubs, shaping island vegetation and dispersing seeds."
+  },
+  {
+    "id": "sp_0097",
+    "species_name": "Marine Otter",
+    "region": "South America",
+    "latitude": -33.0,
+    "longitude": -71.6,
+    "habitat": "Rocky coastline",
+    "diet": "Carnivore",
+    "description": "A coastal otter that hunts crabs and fish in intertidal zones, depending on clean rocky shores and kelp habitat."
+  },
+  {
+    "id": "sp_0098",
+    "species_name": "Sea Otter",
+    "region": "North Pacific",
+    "latitude": 57.0,
+    "longitude": -153.4,
+    "habitat": "Kelp forest",
+    "diet": "Carnivore",
+    "description": "A keystone predator that eats sea urchins and helps maintain kelp forests, using tools to crack hard-shelled prey."
+  },
+  {
+    "id": "sp_0099",
+    "species_name": "Hawaiian Monk Seal",
+    "region": "Hawaii",
+    "latitude": 21.3,
+    "longitude": -157.8,
+    "habitat": "Coastal waters",
+    "diet": "Carnivore",
+    "description": "A rare seal that forages on reef fish and cephalopods, resting on beaches and threatened by human disturbance."
+  },
+  {
+    "id": "sp_0100",
+    "species_name": "Manatee",
+    "region": "Caribbean",
+    "latitude": 25.8,
+    "longitude": -80.2,
+    "habitat": "Coastal rivers and seagrass",
+    "diet": "Herbivore",
+    "description": "A gentle aquatic mammal grazing seagrass and freshwater plants, vulnerable to boat strikes and habitat loss."
+  },
+  {
+    "id": "sp_0101",
+    "species_name": "Atlantic Puffin",
+    "region": "North Atlantic",
+    "latitude": 63.4,
+    "longitude": -19.0,
+    "habitat": "Sea cliffs and open ocean",
+    "diet": "Carnivore",
+    "description": "A seabird that nests in burrows on coastal islands and brings small fish to chicks, sensitive to changing fish stocks."
+  },
+  {
+    "id": "sp_0102",
+    "species_name": "Albatross",
+    "region": "Southern Ocean",
+    "latitude": -45.0,
+    "longitude": 170.0,
+    "habitat": "Open ocean",
+    "diet": "Carnivore",
+    "description": "A long-winged seabird that travels vast distances on wind, feeding on squid and fish and threatened by bycatch."
+  },
+  {
+    "id": "sp_0103",
+    "species_name": "Arctic Hare",
+    "region": "Arctic",
+    "latitude": 74.2,
+    "longitude": -21.8,
+    "habitat": "Tundra",
+    "diet": "Herbivore",
+    "description": "A cold-adapted hare with seasonal coat color, feeding on willow and dry grasses on windswept tundra."
+  },
+  {
+    "id": "sp_0104",
+    "species_name": "Musk Ox",
+    "region": "Arctic",
+    "latitude": 71.0,
+    "longitude": -95.0,
+    "habitat": "Arctic tundra",
+    "diet": "Herbivore",
+    "description": "A shaggy tundra ungulate forming defensive circles against predators and grazing sedges and grasses."
+  },
+  {
+    "id": "sp_0105",
+    "species_name": "Wolverine",
+    "region": "Boreal Forest",
+    "latitude": 62.0,
+    "longitude": -135.0,
+    "habitat": "Taiga and alpine",
+    "diet": "Omnivore",
+    "description": "A wide-ranging mustelid that scavenges and hunts in cold regions, requiring large intact landscapes."
+  },
+  {
+    "id": "sp_0106",
+    "species_name": "Canada Lynx",
+    "region": "Boreal Forest",
+    "latitude": 52.0,
+    "longitude": -100.0,
+    "habitat": "Boreal forest",
+    "diet": "Carnivore",
+    "description": "A forest cat specialized on snowshoe hares, with large paws for traveling over deep snow."
+  },
+  {
+    "id": "sp_0107",
+    "species_name": "Snowshoe Hare",
+    "region": "North America",
+    "latitude": 53.0,
+    "longitude": -113.5,
+    "habitat": "Boreal forest",
+    "diet": "Herbivore",
+    "description": "A hare with seasonally white fur, feeding on twigs and bark in winter and forming key prey in boreal food webs."
+  },
+  {
+    "id": "sp_0108",
+    "species_name": "Beaver",
+    "region": "North America",
+    "latitude": 45.4,
+    "longitude": -75.7,
+    "habitat": "Rivers and wetlands",
+    "diet": "Herbivore",
+    "description": "An ecosystem engineer that builds dams, creating wetlands that increase habitat diversity for many species."
+  },
+  {
+    "id": "sp_0109",
+    "species_name": "Sea Lion",
+    "region": "Eastern Pacific",
+    "latitude": 32.7,
+    "longitude": -117.2,
+    "habitat": "Coastal ocean",
+    "diet": "Carnivore",
+    "description": "A social pinniped that hauls out on beaches and rocky islands, feeding on fish and squid in nearshore waters."
+  },
+  {
+    "id": "sp_0110",
+    "species_name": "Harbor Seal",
+    "region": "North Atlantic",
+    "latitude": 57.1,
+    "longitude": -2.1,
+    "habitat": "Coastal waters",
+    "diet": "Carnivore",
+    "description": "A widespread seal that forages on fish in shallow seas and rests on sandbanks, rocks, and tidal flats."
+  },
+  {
+    "id": "sp_0111",
+    "species_name": "European Otter",
+    "region": "Western Europe",
+    "latitude": 52.6,
+    "longitude": -1.1,
+    "habitat": "Rivers and lakes",
+    "diet": "Carnivore",
+    "description": "A semi-aquatic mustelid feeding mostly on fish, sensitive to water quality and riparian habitat continuity."
+  },
+  {
+    "id": "sp_0112",
+    "species_name": "Eurasian Beaver",
+    "region": "Eastern Europe",
+    "latitude": 54.7,
+    "longitude": 25.3,
+    "habitat": "Rivers and wetlands",
+    "diet": "Herbivore",
+    "description": "A dam-building rodent that creates ponds and wet meadows, improving water retention and habitat complexity."
+  },
+  {
+    "id": "sp_0113",
+    "species_name": "European Hedgehog",
+    "region": "Western Europe",
+    "latitude": 48.9,
+    "longitude": 2.3,
+    "habitat": "Gardens and woodland edges",
+    "diet": "Omnivore",
+    "description": "A small spiny mammal that forages at night for insects and worms, benefitting from connected green spaces."
+  },
+  {
+    "id": "sp_0114",
+    "species_name": "European Rabbit",
+    "region": "Iberian Peninsula",
+    "latitude": 38.7,
+    "longitude": -9.1,
+    "habitat": "Mediterranean scrub",
+    "diet": "Herbivore",
+    "description": "A burrowing herbivore that shapes plant communities and provides key prey for many predators in Mediterranean habitats."
+  },
+  {
+    "id": "sp_0115",
+    "species_name": "Red Fox",
+    "region": "Western Europe",
+    "latitude": 53.3,
+    "longitude": -1.5,
+    "habitat": "Mixed farmland and woodland",
+    "diet": "Omnivore",
+    "description": "A highly adaptable canid that hunts small mammals and eats fruit and carrion, thriving in rural and urban mosaics."
+  },
+  {
+    "id": "sp_0116",
+    "species_name": "European Brown Hare",
+    "region": "Western Europe",
+    "latitude": 50.9,
+    "longitude": 4.4,
+    "habitat": "Agricultural fields",
+    "diet": "Herbivore",
+    "description": "A fast-running hare of open farmland that relies on field margins and diverse crops for cover and forage."
+  },
+  {
+    "id": "sp_0117",
+    "species_name": "Mediterranean Monk Seal",
+    "region": "Mediterranean",
+    "latitude": 36.4,
+    "longitude": 25.4,
+    "habitat": "Sea caves and coastal waters",
+    "diet": "Carnivore",
+    "description": "A rare seal that rests in secluded sea caves and forages on fish and cephalopods, threatened by disturbance and habitat loss."
+  },
+  {
+    "id": "sp_0118",
+    "species_name": "Loggerhead Sea Turtle",
+    "region": "Mediterranean",
+    "latitude": 35.0,
+    "longitude": 33.0,
+    "habitat": "Coastal ocean",
+    "diet": "Carnivore",
+    "description": "A large sea turtle with powerful jaws for crushing crustaceans, nesting on sandy beaches and migrating widely."
+  },
+  {
+    "id": "sp_0119",
+    "species_name": "Great Blue Heron",
+    "region": "North America",
+    "latitude": 40.0,
+    "longitude": -74.5,
+    "habitat": "Wetlands",
+    "diet": "Carnivore",
+    "description": "A tall wading bird that stalks fish and amphibians in shallow water, nesting in colonies near productive wetlands."
+  },
+  {
+    "id": "sp_0120",
+    "species_name": "American Alligator",
+    "region": "Southeastern United States",
+    "latitude": 29.2,
+    "longitude": -81.1,
+    "habitat": "Freshwater wetlands",
+    "diet": "Carnivore",
+    "description": "A large reptile of swamps and rivers, creating 'gator holes' that provide refuges for many species during drought."
+  },
+  {
+    "id": "sp_0121",
+    "species_name": "American Flamingo",
+    "region": "Caribbean",
+    "latitude": 23.0,
+    "longitude": -81.0,
+    "habitat": "Saline lagoons",
+    "diet": "Omnivore",
+    "description": "A wading bird that filter-feeds on tiny crustaceans and algae in shallow salty lakes, forming large breeding colonies."
+  },
+  {
+    "id": "sp_0122",
+    "species_name": "Sunda Pangolin",
+    "region": "Southeast Asia",
+    "latitude": 3.1,
+    "longitude": 101.7,
+    "habitat": "Tropical forest",
+    "diet": "Carnivore",
+    "description": "A nocturnal, scale-covered mammal that eats ants and termites, heavily threatened by illegal wildlife trade."
+  },
+  {
+    "id": "sp_0123",
+    "species_name": "Giant Anteater",
+    "region": "South America",
+    "latitude": -16.5,
+    "longitude": -56.0,
+    "habitat": "Savanna and woodland",
+    "diet": "Carnivore",
+    "description": "A specialized insectivore using a long tongue to harvest ants and termites, vulnerable to fires and road mortality."
+  },
+  {
+    "id": "sp_0124",
+    "species_name": "Nine-banded Armadillo",
+    "region": "Central America",
+    "latitude": 18.5,
+    "longitude": -88.3,
+    "habitat": "Tropical scrub and forest edge",
+    "diet": "Omnivore",
+    "description": "A burrowing mammal with armored plates, foraging for insects and small invertebrates in leaf litter and soil."
+  },
+  {
+    "id": "sp_0125",
+    "species_name": "Giant Armadillo",
+    "region": "Amazon Basin",
+    "latitude": -8.9,
+    "longitude": -63.0,
+    "habitat": "Tropical rainforest",
+    "diet": "Carnivore",
+    "description": "A large nocturnal armadillo that excavates termite mounds and digs deep burrows used by other wildlife."
+  },
+  {
+    "id": "sp_0126",
+    "species_name": "Tapir",
+    "region": "Amazon Basin",
+    "latitude": -3.0,
+    "longitude": -60.5,
+    "habitat": "Tropical rainforest",
+    "diet": "Herbivore",
+    "description": "A large forest herbivore that disperses seeds over long distances, often using rivers as movement corridors."
+  },
+  {
+    "id": "sp_0127",
+    "species_name": "Scarlet Macaw",
+    "region": "Central America",
+    "latitude": 9.7,
+    "longitude": -84.0,
+    "habitat": "Tropical rainforest",
+    "diet": "Herbivore",
+    "description": "A brightly colored parrot that feeds on fruits and seeds, nesting in large tree cavities and moving in noisy pairs."
+  },
+  {
+    "id": "sp_0128",
+    "species_name": "Howler Monkey",
+    "region": "Amazon Basin",
+    "latitude": -2.2,
+    "longitude": -54.7,
+    "habitat": "Tropical rainforest canopy",
+    "diet": "Herbivore",
+    "description": "A canopy primate known for loud calls, feeding on leaves and fruit and influencing forest regeneration through seed dispersal."
+  },
+  {
+    "id": "sp_0129",
+    "species_name": "Ocelot",
+    "region": "Central America",
+    "latitude": 17.2,
+    "longitude": -89.6,
+    "habitat": "Tropical forest",
+    "diet": "Carnivore",
+    "description": "A spotted wild cat of dense cover that hunts small mammals and birds, sensitive to habitat fragmentation."
+  },
+  {
+    "id": "sp_0130",
+    "species_name": "Puma (Mountain Lion)",
+    "region": "North America",
+    "latitude": 36.6,
+    "longitude": -118.7,
+    "habitat": "Mountain and forest",
+    "diet": "Carnivore",
+    "description": "A wide-ranging predator that hunts deer and smaller prey, requiring large connected habitats for dispersal."
+  },
+  {
+    "id": "sp_0131",
+    "species_name": "Grizzly Bear",
+    "region": "North America",
+    "latitude": 48.7,
+    "longitude": -113.8,
+    "habitat": "Mountain forest",
+    "diet": "Omnivore",
+    "description": "A large bear that forages on berries, roots, insects, and fish, influenced by salmon runs and seasonal foods."
+  },
+  {
+    "id": "sp_0132",
+    "species_name": "American Black Bear",
+    "region": "North America",
+    "latitude": 35.6,
+    "longitude": -83.5,
+    "habitat": "Temperate forest",
+    "diet": "Omnivore",
+    "description": "A forest-dwelling bear with flexible diet, using mast crops like acorns and berries and sometimes interacting with human food."
+  },
+  {
+    "id": "sp_0133",
+    "species_name": "Raccoon",
+    "region": "North America",
+    "latitude": 43.7,
+    "longitude": -79.4,
+    "habitat": "Urban and woodland",
+    "diet": "Omnivore",
+    "description": "A clever generalist that forages along waterways and in cities, eating fruit, insects, and human-associated foods."
+  },
+  {
+    "id": "sp_0134",
+    "species_name": "River Otter",
+    "region": "North America",
+    "latitude": 44.9,
+    "longitude": -93.1,
+    "habitat": "Rivers and lakes",
+    "diet": "Carnivore",
+    "description": "A playful semi-aquatic predator feeding on fish and crayfish, indicating healthy aquatic ecosystems where present."
+  },
+  {
+    "id": "sp_0135",
+    "species_name": "Javan Rhinoceros",
+    "region": "Java",
+    "latitude": -6.75,
+    "longitude": 105.37,
+    "habitat": "Lowland rainforest",
+    "diet": "Herbivore",
+    "description": "A rare one-horned rhinoceros surviving in a small protected area, browsing forest plants and relying on intact lowland habitat."
+  },
+  {
+    "id": "sp_0136",
+    "species_name": "Asian Elephant",
+    "region": "Southeast Asia",
+    "latitude": 13.7,
+    "longitude": 100.5,
+    "habitat": "Tropical forest",
+    "diet": "Herbivore",
+    "description": "A forest megaherbivore that disperses seeds and opens pathways, affected by habitat loss and human-wildlife conflict."
+  },
+  {
+    "id": "sp_0137",
+    "species_name": "Clouded Leopard",
+    "region": "Southeast Asia",
+    "latitude": 19.2,
+    "longitude": 101.0,
+    "habitat": "Tropical forest",
+    "diet": "Carnivore",
+    "description": "A secretive forest cat with excellent climbing ability, hunting arboreal and terrestrial prey in dense forests."
+  },
+  {
+    "id": "sp_0138",
+    "species_name": "Malayan Tapir",
+    "region": "Malay Peninsula",
+    "latitude": 4.2,
+    "longitude": 102.0,
+    "habitat": "Tropical rainforest",
+    "diet": "Herbivore",
+    "description": "A large nocturnal browser with distinctive black-and-white coloration, using forest rivers and trails for movement."
+  },
+  {
+    "id": "sp_0139",
+    "species_name": "Bornean Pygmy Elephant",
+    "region": "Borneo",
+    "latitude": 5.4,
+    "longitude": 117.8,
+    "habitat": "Lowland rainforest",
+    "diet": "Herbivore",
+    "description": "A smaller elephant population that relies on lowland forests and river valleys, threatened by conversion to plantations."
+  },
+  {
+    "id": "sp_0140",
+    "species_name": "Proboscis Monkey",
+    "region": "Borneo",
+    "latitude": 3.9,
+    "longitude": 114.4,
+    "habitat": "Mangrove and riverine forest",
+    "diet": "Herbivore",
+    "description": "A river-edge primate adapted to mangroves, feeding on leaves and unripe fruits and swimming well between banks."
+  },
+  {
+    "id": "sp_0141",
+    "species_name": "Philippine Eagle",
+    "region": "Philippines",
+    "latitude": 7.1,
+    "longitude": 125.6,
+    "habitat": "Tropical rainforest",
+    "diet": "Carnivore",
+    "description": "A large forest raptor that hunts arboreal mammals and birds, requiring extensive intact rainforest for nesting and foraging."
+  },
+  {
+    "id": "sp_0142",
+    "species_name": "Bornean Orangutan",
+    "region": "Borneo",
+    "latitude": 1.5,
+    "longitude": 114.9,
+    "habitat": "Lowland rainforest",
+    "diet": "Omnivore",
+    "description": "An arboreal great ape that builds nightly nests and feeds mostly on fruit, sensitive to logging and forest fragmentation."
+  },
+  {
+    "id": "sp_0143",
+    "species_name": "Gibbon",
+    "region": "Southeast Asia",
+    "latitude": 18.8,
+    "longitude": 98.9,
+    "habitat": "Tropical forest canopy",
+    "diet": "Herbivore",
+    "description": "A small ape that brachiates through the canopy and sings to defend territories, relying on continuous forest cover."
+  },
+  {
+    "id": "sp_0144",
+    "species_name": "King Cobra",
+    "region": "Southeast Asia",
+    "latitude": 14.5,
+    "longitude": 101.4,
+    "habitat": "Tropical forest",
+    "diet": "Carnivore",
+    "description": "A large venomous snake that preys primarily on other snakes, occupying forest edges and disturbed habitats near cover."
+  },
+  {
+    "id": "sp_0145",
+    "species_name": "Saltwater Crocodile",
+    "region": "Northern Australia",
+    "latitude": -12.4,
+    "longitude": 130.8,
+    "habitat": "Estuaries and mangroves",
+    "diet": "Carnivore",
+    "description": "A large crocodile that uses tidal channels and river mouths, ambushing fish, birds, and mammals in brackish waters."
+  },
+  {
+    "id": "sp_0146",
+    "species_name": "Green Anole",
+    "region": "Southeastern United States",
+    "latitude": 30.3,
+    "longitude": -81.7,
+    "habitat": "Woodland and gardens",
+    "diet": "Carnivore",
+    "description": "A small lizard common in warm climates, feeding on insects and displaying color changes linked to temperature and stress."
+  },
+  {
+    "id": "sp_0147",
+    "species_name": "Axolotl",
+    "region": "Central Mexico",
+    "latitude": 19.3,
+    "longitude": -99.1,
+    "habitat": "Freshwater canals",
+    "diet": "Carnivore",
+    "description": "A neotenic salamander retaining larval traits, feeding on aquatic invertebrates and threatened by water pollution and invasive fish."
+  },
+  {
+    "id": "sp_0148",
+    "species_name": "Goliath Frog",
+    "region": "Central Africa",
+    "latitude": 2.3,
+    "longitude": 9.8,
+    "habitat": "Fast-flowing rivers",
+    "diet": "Carnivore",
+    "description": "The largest frog species, living near rapids and feeding on insects and small animals, vulnerable to habitat disturbance."
+  },
+  {
+    "id": "sp_0149",
+    "species_name": "Emperor Scorpion",
+    "region": "West Africa",
+    "latitude": 5.6,
+    "longitude": -0.2,
+    "habitat": "Tropical forest floor",
+    "diet": "Carnivore",
+    "description": "A large nocturnal scorpion that shelters in burrows and feeds on insects and small vertebrates in humid forests."
+  },
+  {
+    "id": "sp_0150",
+    "species_name": "Giant Pacific Octopus",
+    "region": "North Pacific",
+    "latitude": 55.0,
+    "longitude": -135.0,
+    "habitat": "Rocky seafloor",
+    "diet": "Carnivore",
+    "description": "A large octopus that hunts crabs and mollusks on cold rocky bottoms, using camouflage and problem-solving behavior."
   }
 ]
 

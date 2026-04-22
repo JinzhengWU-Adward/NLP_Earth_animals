@@ -47,6 +47,57 @@ pip install -r requirements-ml.txt
 - `GET /species`：返回全部物种条目（来自 `data/species.json`）
 - `POST /query`：NLP 查询入口（RAG + 可选 DeepSeek 结构化输出）
 
+## `/query` 处理流程（当前代码实现）
+
+后端当前实现的是“**本地向量检索（FAISS）+ 可选 LLM（DeepSeek JSON mode）**”的结构化 RAG。
+
+### 1) 启动时预热：构建向量索引
+
+服务启动后会在 `startup` 阶段预热（避免第一次查询卡顿）：
+
+- `backend/app/main.py` 在启动时调用 `get_nlp_service()`
+- `backend/app/services/wiring.py` 里用 `lru_cache(maxsize=1)` 缓存单例：
+  - `SpeciesStore(settings.data_path)` 读取 `data/species.json`
+  - `NlpService.build(store.all())` 构建 NLP 服务
+
+`NlpService.build()` 做的事：
+
+- **Embedder 选择**：`backend/app/nlp/embedder.py`
+  - 优先 `sentence-transformers/all-MiniLM-L6-v2`（需要安装 `requirements-ml.txt`）
+  - 不可用时自动回退为 **TF-IDF**（轻量，保证 MVP 可跑）
+- **向量索引构建**：`backend/app/nlp/vector_index.py`
+  - 把每个物种拼成可检索“文档文本”（包含 `species_name/region/habitat/diet/description`）
+  - 生成 embeddings（必要时 TF-IDF 会先 `fit`）
+  - 用 `faiss.IndexFlatIP` 建索引（因为 embeddings 已做 normalize，所以 inner product 等价余弦相似度）
+
+### 2) 请求进入 `/query`：先检索，再生成结构化输出
+
+接口入口：`backend/app/api/routes/query.py`
+
+- 调用：`nlp.qa.answer(query=req.query, top_k=req.top_k)`
+- 返回：`answer + map_actions + route`，并附带 `citations`（命中的物种及相似度 score）
+
+问答核心：`backend/app/nlp/structured_qa.py`
+
+- **Step A：向量检索**：`index.search(query, top_k)` 得到 `hits`
+- **Step B：组装 knowledge**：把 hits 的结构化字段整理为 LLM 可用的上下文
+- **Step C：生成答案与地图动作**：
+  - **如果未配置 `DEEPSEEK_API_KEY`**：走本地降级策略
+    - 返回基于最相关物种的简短回答
+    - `map_actions` 默认输出：`highlight_species + camera_fly_to`
+  - **如果配置了 `DEEPSEEK_API_KEY`**：
+    - 用 `backend/app/nlp/llm/prompt.py` 的 system/user prompt 约束 LLM **只输出严格 JSON**
+    - 对 JSON 做校验与清洗，只保留合法 `map_actions`（`highlight_species` / `filter` / `camera_fly_to`）
+    - 如果 LLM 调用失败/输出不合法：自动回退到本地降级策略
+
+### 3) 数据更新对 RAG 的影响（很重要）
+
+当前实现里 `SpeciesStore` 与 `NlpService` 都是 **进程内缓存单例**（`lru_cache`），向量索引只在构建时生成一次。
+
+- **你新增/修改了 `data/species.json` 后**：
+  - **需要重启后端进程**，让它重新加载数据并 `index.build(...)` 重建向量索引
+  - 这不是“训练模型”，而是 **重新计算 embeddings 并重建索引**
+
 ### DeepSeek 配置（可选）
 
 如果你希望 `/query` 使用 DeepSeek 生成结构化回答，请设置环境变量：
